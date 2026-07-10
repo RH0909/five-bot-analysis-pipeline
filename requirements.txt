@@ -1,0 +1,6 @@
+# Required for generate_data.py (synthetic dataset generation)
+numpy>=1.24
+scipy>=1.10
+
+# Required for analysis scripts (tasks 1–4)
+soundfile>=0.12

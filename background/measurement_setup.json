@@ -1,0 +1,56 @@
+{
+  "accelerometers": [
+    {
+      "id": "ACC-DE",
+      "type": "PCB 603C01",
+      "sensitivity_mv_per_g": 100,
+      "frequency_range_hz": [0.5, 10000],
+      "location": "Drive-end bearing housing",
+      "mounting": "Magnetic base, radial direction",
+      "distance_from_source_m": 0.05
+    }
+  ],
+  "microphones": [
+    {
+      "id": "MIC-FF",
+      "type": "PCB 130E20 free-field condenser",
+      "sensitivity_mv_per_pa": 45,
+      "frequency_range_hz": [20, 20000],
+      "location": "Free-field, 0.5 m from pump casing, height 0.9 m",
+      "mounting": "Tripod, IEC 61672 class 1",
+      "distance_from_source_m": 0.5
+    },
+    {
+      "id": "MIC-BH",
+      "type": "PCB 378C10",
+      "sensitivity_mv_per_pa": 50,
+      "frequency_range_hz": [20, 20000],
+      "location": "Near drive-end bearing housing, 0.1 m from casing",
+      "mounting": "Surface mount adapter",
+      "distance_from_source_m": 0.1
+    }
+  ],
+  "data_acquisition": {
+    "system": "NI cDAQ-9174",
+    "modules": ["NI 9234 (4-channel IEPE, 24-bit)"],
+    "sample_rate_hz": 48000,
+    "resolution_bits": 24,
+    "anti_aliasing_filter_hz": 20000
+  },
+  "calibration": {
+    "last_calibration_date": "2024-08-20",
+    "calibration_lab": "Inspecta Nordic Oy",
+    "calibration_certificate": "INS-2024-4471",
+    "next_calibration_due": "2025-08-20"
+  },
+  "acoustic_environment": {
+    "room_description": "Indoor pump room, ~8 m x 5 m, concrete floor and walls, no acoustic treatment",
+    "background_noise_dba": 38,
+    "dominant_background_sources": [
+      "Water flow in pipes",
+      "Building HVAC (switched off during measurements)"
+    ],
+    "notes": "Ventilation fans and adjacent standby pump switched off during each session. Background noise floor measured at 38 dBA with pump stopped."
+  },
+  "measurement_standard": "ISO 10816-3: Mechanical vibration — Evaluation of machine vibration by measurements on non-rotating parts"
+}

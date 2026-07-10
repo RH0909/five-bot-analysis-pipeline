@@ -1,0 +1,30 @@
+# Generated data — run generate_data.py to create
+data/
+
+# Script outputs — produced by the analysis pipeline
+wav_inspection.json
+psd_results.npz
+fault_amplitudes.csv
+scada_context.json
+Client_report.md
+review_notes.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/

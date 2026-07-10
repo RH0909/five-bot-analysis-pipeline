@@ -1,0 +1,48 @@
+{
+  "pump_type": "Centrifugal pump",
+  "manufacturer": "Grundfos",
+  "model": "CM5-6 A-R-I-E-AVBE",
+  "serial_number": "GF-2021-CM5-00847",
+  "installation_date": "2021-03-15",
+  "nominal_rpm": 1450,
+  "motor": {
+    "type": "4-pole induction motor",
+    "power_kw": 1.1,
+    "voltage_v": 400,
+    "frequency_hz": 50,
+    "nominal_rpm": 1450,
+    "service_factor": 1.15
+  },
+  "impeller": {
+    "type": "closed",
+    "blade_count": 6,
+    "diameter_mm": 130,
+    "blade_pass_frequency_hz": 145.0
+  },
+  "bearings": {
+    "drive_end": {
+      "manufacturer": "SKF",
+      "model": "6205-2Z",
+      "type": "deep groove ball bearing",
+      "ball_count": 9,
+      "ball_diameter_mm": 7.94,
+      "pitch_diameter_mm": 38.5,
+      "contact_angle_deg": 15,
+      "bpfo_hz": 87.09,
+      "bpfi_hz": 130.41,
+      "bsf_hz": 56.27,
+      "ftf_hz": 9.68
+    },
+    "non_drive_end": {
+      "manufacturer": "SKF",
+      "model": "6204-2Z",
+      "type": "deep groove ball bearing",
+      "notes": "Smaller bearing, not primary monitoring target"
+    }
+  },
+  "shaft_frequency_hz": 24.167,
+  "fluid": "Water",
+  "design_flow_m3h": 8.5,
+  "design_head_m": 42.0,
+  "design_efficiency_pct": 68
+}

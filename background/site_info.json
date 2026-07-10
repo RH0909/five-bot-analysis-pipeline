@@ -1,0 +1,55 @@
+{
+  "site_name": "Pirkanmaa Regional Water Treatment Plant – Pump Station 3",
+  "operator": "Pirkanmaan Vesi Oy",
+  "contact_person": "Markus Hämäläinen, Maintenance Engineer",
+  "location": {
+    "city": "Tampere",
+    "country": "Finland",
+    "coordinates_wgs84": {"lat": 61.4978, "lon": 23.7610}
+  },
+  "site_type": "Municipal water treatment and distribution",
+  "pump_role": "Secondary distribution booster — feeds residential zone 3B (~850 households)",
+  "operating_schedule": "Continuous 24/7, demand-controlled via downstream pressure sensor",
+  "piping_layout": {
+    "inlet_pipe_material": "Stainless steel AISI 316",
+    "inlet_pipe_diameter_mm": 80,
+    "outlet_pipe_diameter_mm": 65,
+    "inlet_length_m": 4.2,
+    "outlet_length_m": 12.0,
+    "check_valve": true,
+    "isolation_valves": 2,
+    "flexible_connectors": true
+  },
+  "redundancy": {
+    "standby_pump": "Identical CM5-6, serial GF-2021-CM5-00848",
+    "standby_status": "Warm standby, auto-starts on primary failure"
+  },
+  "ambient_noise_sources": [
+    "Adjacent standby CM5-6 pump (identical model, in standby during measurements)",
+    "HVAC unit on roof (approx. 30 m away, switched off during measurements)",
+    "Pipe flow noise (attenuated by flexible connectors and isolation flanges)",
+    "Road traffic noise (building provides >25 dB attenuation)"
+  ],
+  "maintenance_history": [
+    {
+      "date": "2021-03-15",
+      "action": "Initial installation and commissioning",
+      "technician": "Pumppuhuolto Oy"
+    },
+    {
+      "date": "2022-09-10",
+      "action": "12-month routine inspection — no faults found, bearings greased",
+      "technician": "M. Hämäläinen"
+    },
+    {
+      "date": "2023-10-04",
+      "action": "Mechanical seal replacement (normal wear), bearings OK",
+      "technician": "Pumppuhuolto Oy / J. Korhonen"
+    },
+    {
+      "date": "2024-08-20",
+      "action": "Baseline condition monitoring campaign. All sensors calibrated. Bearing temps normal (DE: 52.3°C), vibration 1.19 mm/s RMS. No anomalies.",
+      "technician": "J. Virtanen, NDT"
+    }
+  ]
+}
