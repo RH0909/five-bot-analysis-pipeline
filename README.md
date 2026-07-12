@@ -75,7 +75,7 @@ data/               (git-ignored — run generate_data.py to create)
 
 ## Prerequisites
 
-- [Hermes Agent](https://github.com/RH0909/hermes) — multi-profile local agent framework
+- [Hermes Agent](https://github.com/nousresearch/hermes-agent) — multi-profile local agent framework
 - [Ollama](https://ollama.com) — local LLM runtime
 - Python 3.10+ with a virtual environment
 
@@ -98,7 +98,7 @@ qwen3 variants are strongly preferred — they follow structured output formats 
 ### 1. Clone and install Python dependencies
 
 ```bash
-git clone https://github.com/<your-username>/five-bot-analysis-pipeline.git
+git clone https://github.com/RH0909/five-bot-analysis-pipeline.git
 cd five-bot-analysis-pipeline
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
