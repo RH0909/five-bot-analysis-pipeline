@@ -23,6 +23,15 @@ User request
 
 Each bot is a separate Hermes Agent profile with its own local LLM. Bots communicate via handover prompts — structured text passed from one session to the next. There is no shared memory or live inter-bot communication: every handover is explicit and auditable.
 
+---
+## End result example
+
+![Fault progression](examples/fault_progression.png)
+
+![Example report](examples/examplereport.md)
+
+---
+
 ### Bot roles
 
 | Bot | Responsibility | Does NOT do |
