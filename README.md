@@ -75,7 +75,7 @@ data/               (git-ignored — run generate_data.py to create)
 
 ## Prerequisites
 
-- [Hermes Agent](https://github.com/roy-ht/hermes) — multi-profile local agent framework
+- [Hermes Agent](https://github.com/RH0909/hermes) — multi-profile local agent framework
 - [Ollama](https://ollama.com) — local LLM runtime
 - Python 3.10+ with a virtual environment
 
