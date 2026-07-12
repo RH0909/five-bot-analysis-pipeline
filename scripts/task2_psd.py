@@ -15,7 +15,7 @@ from pathlib import Path
 from scipy import signal
 import soundfile as sf
 
-ROOT     = Path("/home/roy/work/projects/Client")
+ROOT = Path(os.environ.get("FBA_ROOT") or Path(__file__).resolve().parent.parent)
 BG       = ROOT / "background"
 ACOUSTIC = ROOT / "data" / "acoustic"
 INSPECT  = ROOT / "wav_inspection.json"
