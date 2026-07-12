@@ -109,7 +109,7 @@ Flow ran slightly below the 8.5 m³/h design point but was consistent session to
 
 Baseline drive-end bearing temperature (Aug 2024): 52.3 °C. Design flow: 8.5 m³/h.
 
-**Figure:** ![fault_progression.png](examples/fault_progression.png) — Panel A, drive-end PSD 0–300 Hz across the four sessions with BPFO harmonics marked; Panel B, fault indicators (2×/3×BPFO amplitude, DE bearing temperature, overall vibration) versus session.
+**Figure:** ![fault_progression.png](fault_progression.png) — Panel A, drive-end PSD 0–300 Hz across the four sessions with BPFO harmonics marked; Panel B, fault indicators (2×/3×BPFO amplitude, DE bearing temperature, overall vibration) versus session.
 
 ---
 
