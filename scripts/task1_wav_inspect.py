@@ -9,7 +9,7 @@ import json, sys
 from pathlib import Path
 import soundfile as sf
 
-ROOT     = Path("/home/roy/work/projects/Client")
+ROOT = Path(os.environ.get("FBA_ROOT") or Path(__file__).resolve().parent.parent)
 BG       = ROOT / "background"
 ACOUSTIC = ROOT / "data" / "acoustic"
 OUTPUT   = ROOT / "wav_inspection.json"
