@@ -12,7 +12,7 @@ import json, sys, csv
 import numpy as np
 from pathlib import Path
 
-ROOT    = Path("/home/roy/work/projects/Client")
+ROOT = Path(os.environ.get("FBA_ROOT") or Path(__file__).resolve().parent.parent)
 BG      = ROOT / "background"
 PSD_NPZ = ROOT / "psd_results.npz"
 OUTPUT  = ROOT / "fault_amplitudes.csv"
