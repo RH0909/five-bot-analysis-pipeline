@@ -28,7 +28,7 @@ Each bot is a separate Hermes Agent profile with its own local LLM. Bots communi
 
 ![Fault progression](examples/fault_progression.png)
 
-![Example report](examples/examplereport.md)
+[Example report](examples/example_report.md)
 
 ---
 
