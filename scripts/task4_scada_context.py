@@ -9,7 +9,7 @@ import json, sys
 from pathlib import Path
 from datetime import datetime, timedelta
 
-ROOT    = Path("/home/roy/work/projects/Client")
+ROOT = Path(os.environ.get("FBA_ROOT") or Path(__file__).resolve().parent.parent)
 SCADA   = ROOT / "data" / "automation" / "scada_data.csv"
 OUTPUT  = ROOT / "scada_context.json"
 WINDOW  = timedelta(hours=6)
